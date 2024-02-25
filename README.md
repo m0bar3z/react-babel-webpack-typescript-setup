@@ -17,13 +17,13 @@ To get started with this project, follow these steps:
 2. Install dependencies:
 
     ```bash
-    npm install
+    yarn
     ```
 
 3. Start the development server:
 
     ```bash
-    npm start
+    yarn dev
     ```
 
 4. Open your browser and navigate to `http://localhost:8080` to view the application.
@@ -33,13 +33,13 @@ To get started with this project, follow these steps:
 - `src/`: Contains the source code for the React application.
 - `dist/`: Output directory where bundled JavaScript files are generated.
 - `webpack.config.js`: Webpack configuration for bundling the project.
-- `babel.config.js`: Babel configuration for transpiling JavaScript and TypeScript code.
+- `.babelrc`: Babel configuration for transpiling JavaScript and TypeScript code.
 - `tsconfig.json`: TypeScript configuration for the project.
 
 ## Available Scripts
 
-- `npm start`: Starts the development server.
-- `npm run build`: Builds the project for production.
+- `yarn dev`: Starts the development server.
+- `yarn build`: Builds the project for production.
 
 ## Technologies Used
 
