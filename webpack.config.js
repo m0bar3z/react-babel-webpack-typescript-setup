@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.jsx",
+  entry: "./src/index.tsx",
   mode: "development",
   output: {
     filename: "bundle.[fullhash].js",
@@ -20,7 +20,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test:  /\.(js|ts)x?$/,
         exclude: /node_modules/,
         use: ["babel-loader"]
       },
