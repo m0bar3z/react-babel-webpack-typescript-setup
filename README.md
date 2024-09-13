@@ -23,7 +23,7 @@ To get started with this project, follow these steps:
 3. Start the development server:
 
     ```bash
-    yarn dev
+    yarn start
     ```
 
 4. Open your browser and navigate to `http://localhost:8080` to view the application.
